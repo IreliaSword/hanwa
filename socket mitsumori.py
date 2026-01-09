@@ -17,7 +17,7 @@ with st.sidebar:
     rate_domestic = st.number_input("国内費用 (円/h)", value=6000, step=500)
     rate_overseas = st.number_input("海外費用 (円/h)", value=10000, step=500)
     
-    st.info("注：侧边栏参数修改后将实时应用于计算。")
+    st.info("注: 変更されたサイドバー パラメータは、計算にリアルタイムで適用されます。")
 
 # --- 2. 主界面：输入区域 ---
 col1, col2 = st.columns(2)
